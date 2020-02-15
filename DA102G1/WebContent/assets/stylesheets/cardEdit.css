@@ -1,0 +1,141 @@
+		.editcard{
+		
+			position: absolute;
+		    top: 10%;
+		    right: 0;
+		    bottom: auto;
+		    left: 0;
+		    margin:auto;
+		}
+		.cardeditBG{
+			background-image: url(/DA102G1/assets/images/snowpeak/joseph-wright-81532.jpg);
+			background-size: cover;
+			border-radius: 20px;
+			box-sizing: border-box;
+			padding-left: 10px;
+			border:1px solid gray;
+		}
+
+		.cardEdit{
+			height: 700px;
+			padding: 80px ;
+
+		}
+		.cardEdit label,h4{
+			margin-bottom: 20px;
+		}
+		.cardEdit label {
+		    text-align: left;
+		    display:block;
+		}
+		.cardEdit input[type=text],input[type=file],textarea{
+			/*float: left;*/
+		}
+		.sendCData{
+			position: relative;
+			display: inline-block;
+			float:left;
+			background-color:rgba(150,150,150,0.8);
+			border: 1px solid white;
+			border-radius: 10px;
+			padding: 10px;
+			outline: none;
+			letter-spacing: 1px;
+		}
+		.sendCData:hover{
+			padding: 12px 10px 12px 10px;
+			
+			color:red;
+		}
+		.sendCData:active{
+			padding: 10px;
+			margin-top: 0px;
+			background-color:rgba(250,250,250,0.8);
+		}
+		
+		.cback{
+		
+			position: relative;
+			display: inline-block;
+			float:left;
+			background-color:rgba(150,150,150,0.8);
+			border: 1px solid white;
+			border-radius: 10px;
+			padding: 10px;
+			outline: none;
+			letter-spacing: 1px;
+			left:20px;
+		}
+		
+		.cback:hover{
+			padding: 12px 10px 12px 10px;
+			
+			color:red;
+		}
+		.cback:active{
+			padding: 10px;
+			margin-top: 0px;
+			background-color:rgba(250,250,250,0.8);
+		}
+		
+		
+		
+
+		.cardbox{
+			height: 700px;
+		}
+		
+		.inputName{
+			background-color:rgba(80,80,80,0.6);
+			color: white;
+			border:  0px;
+			border-bottom: 1px solid white;
+			
+			border-radius: 20px;
+			outline: none;
+			height:40px;
+			padding-left: 15px;
+		}
+
+		.expArea{
+			background-color:  rgba(80,80,80,0.6);
+			color:white;
+			border:0px;
+			border-bottom: 1px solid white;
+			padding-left: 15px;
+			border-radius: 20px;
+			resize: none;
+		}
+
+		
+
+		@media (max-width: 600px){
+			.card_1{
+				width: 100%;
+				top: -150px;
+			}
+
+			.cphoto{
+			height: 40%;
+			width: 45%;
+			overflow: hidden;
+
+			}
+			.cphoto img{
+				min-width: 150px;
+				min-height: 150px;
+				
+			}
+			.nick_name{
+				left: 100px;
+				top:160px;
+				font-size: 16px;
+			}
+			.outdoor_exp{
+				height: 170px;
+				width: 45%;
+				overflow-y: scroll;
+				color:white;
+				resize: none;
+			}
+		}

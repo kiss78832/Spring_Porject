@@ -1,0 +1,34 @@
+.navbar-nav li a {
+    line-height: 59px;
+    height: 59px;
+    padding-top: 0;
+}
+#logo{
+  position: relative;
+  display: inline-block;
+  /*left: -100px;*/
+  margin-right: 5px;
+  z-index: -1;
+}
+  #mainlogo{
+    color: red;
+    font-size: 23px;
+    transition: 0.4s;
+  }
+  #mainlogo:hover{
+    font-size: 25px;
+  }
+  .alink{
+    color: white!important;
+  }
+  .alink:hover{
+    background-color: rgba(80,80,80,0.9);
+    color: red !important;
+  }
+  #signout{
+    display: none;
+  }
+  
+  #pills-tabContent{
+      width: 100%;
+  }

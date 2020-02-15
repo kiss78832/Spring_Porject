@@ -1,0 +1,309 @@
+
+.white-box {
+	background: #8278782e;
+	margin: 0 0 12px;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 30px;
+	color: #313131;
+	box-sizing: border-box;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding:45px;
+}
+
+.form-control1 {
+	background-color: #fff;
+	border-radius: 0;
+	color: #565656;
+	height: 38px;
+	max-width: 100%;
+	padding: 7px 12px;
+	transition: all 300ms linear 0s;
+	display: inline-block;
+	width: 70%;
+	font-size: 14px;
+	line-height: 1.42857143;
+	background-image: none;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+
+.table{
+	margin-top:0px;
+}
+
+th{
+	color:white !important;	
+	background-color: #2f2a2a8a !important;
+}
+
+
+/* table tr:nth-child(even) { */
+/* 	background-color: rgb(228, 215, 198); */
+/* } */
+
+
+thead{
+	font-size:22px;
+}
+
+tbody td {
+	line-height: 100px;
+	font-size:20px;
+}
+
+/* table thead :first-child { */
+/* 	background-color: rgb(229, 204, 173); */
+/* } */
+
+h3 {
+	font-size: 60px;
+}
+
+/* #addNew { */
+/* 	background-color: #fff; */
+/* 	border-radius: 0; */
+/* 	color: #565656; */
+/* 	height: 38px; */
+/* 	max-width: 100%; */
+/* 	padding: 7px 12px; */
+/* 	float: right; */
+/* 	width: 100%; */
+/* 	font-size: 14px; */
+/* 	line-height: 1.42857143; */
+/* 	background-image: none; */
+/* 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); */
+/* } */
+
+#addNew {
+  width:100%;
+  height: 38px;
+  font-size: 14px;
+  
+  
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} 
+
+#addNew:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+
+
+
+
+
+#addBack {
+  width:100%;
+  height: 38px;
+  font-size: 14px;
+  
+  
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} 
+
+#addBack:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+
+
+ @media  screen and (max-width: 1400px) {
+.btnSet {
+    width: 45%;
+}
+	.btnList {
+    margin-left: 14% !important;
+}
+}
+
+
+
+
+.dataEditImg:hover{
+	transition: all 0.25s linear;
+	width:30%;
+}
+
+.formList{
+	float:left;
+	width:50%;
+}
+
+
+.orderBar{
+	width:50%;
+	float:right;
+	padding:0px;
+	margin-right:0px !important	;
+}
+
+/* .filterList{ */
+/* 	max-height:100px; */
+/* } */
+
+.filterList form{
+	 display: inline-block;
+}
+
+/* .orderSubmit{ */
+/* 	width:20%; */
+/* 	height:50px; */
+/* 	float:right;	 */
+/* 	margin-top:8% !important; */
+/* 	margin-right:0% !important; */
+/* } */
+
+.btnSet{
+	display:inline-block;
+	width:32%;
+}
+
+.line{
+  content: "";
+  display: block;
+  border-top: solid 2px #bebebe;
+  width: 48%;
+  height: 2px;
+  margin-left: 47%;
+}
+
+.totalPrice{
+	color:white;
+	margin-left: 44%;
+}
+
+
+.btnList{
+	margin-top:2% !important;
+	margin-left:50% !important;
+}
+
+
+.loader{
+  margin: 0 0 2em;
+  height: auto;
+  width: 3%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: sub;
+  visibility:hidden;
+}
+
+svg path,svg rect{
+  fill: #FF6700;
+}
+
+
+
+
+
+
+
+
+#meal_id{
+ 	margin-bottom:0px;
+}
+#meal_status{
+	margin-bottom:0px;
+}
+
+#lightBox1{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+	background: rgba(66,66,66,0.5);
+	display: none;
+	z-index: 90;
+}
+
+#commitArea input{
+	width:30%;
+	height:20%;	
+	position: relative;
+	display: inline-block;
+	border-radius: 25px;
+ }
+
+#commitArea{
+	font-size:20px; 
+	position: absolute;
+	width: 300px;
+	height: 200px;
+    top: 0;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    margin:auto;
+	background-color:#FFEE99;
+	z-index: -1;
+	border-radius: 25px;	
+}
+#btnCommit{
+	background-color:white;
+    font-size:16px;
+	padding-left:2px;
+	bottom: 40px;
+	right: 20px;
+	/* margin-right: 40px; */
+}
+
+#btnCommit:hover{
+	background-color: bisque;
+	transition	: all 0.15s linear;
+	width:28%;
+	height:18%;
+}
+
+#btnCommit:active{
+	color:white;
+}
+
+#btnCancel{
+	background-color:white;
+    font-size:16px;
+	padding-right:2px;
+	bottom: 40px;
+} 
+
+#btnCancel:hover{
+	background-color: bisque;
+	transition	: all 0.15s linear;
+	width:28%;
+	height:18%;
+}
+
+#btnCancel:active{
+	color:white;
+}
+
+#commitArea p{
+	color: black;
+	position: relative;
+	margin: 60px 50px !important;
+	font-size: 30px; 
+}
