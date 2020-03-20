@@ -1,0 +1,115 @@
+/* 瀏覽食宿資訊--床位 */
+table {
+	position: relative;
+	display: inline-block;
+}
+
+.showLocPic {
+	cursor: auto;
+	color: #000;
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	min-width: 160px;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	z-index: 1;
+	border: 2px solid black;
+}
+
+.location_name:hover .showLocPic {
+	display: block;
+}
+
+form {
+	position: relative;
+	display: inline-block;
+/* 	border: 1px solid yellow; */
+	width: auto;
+	height: 50px;
+	padding: 20px;
+	/*   margin-left:185%;  */
+}
+
+#month {
+	width: 60%;
+}
+
+.years_and_months {
+	width: 100%;
+	border: 1px solid black;
+	text-align: center;
+	display: inline-block;
+}
+
+.years_and_months tr {
+	font-size: 40px;
+}
+
+.years_and_months th {
+	position: relative;
+}
+
+.years_and_months table {
+	float: left;
+	margin: 0 auto;
+}
+
+.days {
+/* 	border: 2px solid blue; */
+	width: auto;
+	height: auto;
+	font-size: 0px;
+	margin-top: 0px;
+	/* margin-bottom: 50px; */
+}
+
+th {
+	font-size: 20px;
+}
+
+.head {
+	font-size: 40px;
+}
+
+.days td {
+	font-size: 18px;
+	border: 2px solid black;
+	width: 211px;
+	height: 150px;
+	padding: 5px;
+	vertical-align: text-top;
+}
+
+span:hover {
+	transition-property: font-size, color, text-shadow, margin-top;
+	transition-duration: 0.25s;
+	font-size: 105%;
+	color: gray;
+	text-shadow: 5px, 5px, 5px, rgb(73, 70, 82);
+	margin-top: 120%;
+}
+
+.location_name {
+	width: 20%;
+	height: auto;
+	font-size: 40px;
+	float: unset;
+}
+
+.monthChange {
+	width: 50%;
+}
+
+.formBox form {
+	display: inline-block;
+}
+
+@media ( max-width : 900px) {
+	.days td, th {
+		/* padding: 20px; */
+		/* min-width: 20px; */
+		
+	}
+}

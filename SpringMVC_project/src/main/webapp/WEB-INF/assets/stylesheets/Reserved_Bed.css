@@ -1,0 +1,534 @@
+
+.pageTitle{
+  position:relative;
+  text-align: center
+}
+.pageTitle:before {
+  content: "";
+  display: block;
+  border-top: solid 2px #bebebe;
+  width: 44%;
+  height: 2px;
+  position: absolute;
+  top: 16px;
+  z-index: 0;
+}
+
+.pageTitle:after {
+  content: "";
+  display: block;
+  border-top: solid 2px #bebebe;
+  width: 44%;
+  height: 2px;
+  position: absolute;
+  top: 16px;
+  left:55%;
+  z-index: 0;
+}
+
+.pageTitle span {
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+#submit_detail {
+	position: fixed;
+    bottom: 11px;
+    right: 17px;
+    width: 4.3%;
+    height: 8%;
+    border-radius: 50%;
+    background-color: white;
+  	
+}
+
+submit_detail img{
+	z-index: 30;
+}
+
+#submit_detail:hover {
+    width: 3.8%;
+    height: 7.5%;
+	transition: all 0.1s linear;
+}
+
+#submit_detail:active {
+	color: black;
+	text-decoration: underline;
+	transition: all 0.15s linear;
+}
+
+
+ @media  screen and (max-width: 1550px) {
+	#submit_detail{
+		width: 6.3%;
+		height:8.3%;
+		
+	}
+	
+	#submit_detail:hover {
+    width: 5.8%;
+    height: 7.8%;
+	transition: all 0.1s linear;
+}
+
+}
+
+
+
+ @media  screen and (max-width: 1100px) {
+	#submit_detail{
+		width: 7.3%;
+		height:8%;
+		
+	}
+	
+	#submit_detail:hover {
+    width: 6.8%;
+    height: 7.5%;
+	transition: all 0.1s linear;
+}
+
+}
+
+ @media  screen and (max-width: 900px) {
+	#submit_detail{
+		width: 9.3%;
+		height:8.3%;
+		
+	}
+	
+	#submit_detail:hover {
+    width: 8.8%;
+    height: 7.8%;
+	transition: all 0.1s linear;
+}
+
+}
+
+ @media  screen and (max-width: 730px) {
+	#submit_detail{
+		width: 11.3%;
+		height:8.3%;
+		
+	}
+	
+	#submit_detail:hover {
+    width: 10.8%;
+    height: 7.8%;
+	transition: all 0.1s linear;
+}
+
+}
+
+
+
+form {
+	position: relative;
+	margin-top: 5%; width : 100%;
+	max-height: 1000px;
+	overflow: auto;
+	width: 100%;
+}
+
+#addDateDiv {
+	font-size: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+#addDateDiv:hover {
+	transition: all 0.1s linear;
+	font-size: 35px;
+	color: #ffed97;
+}
+
+#addDateDiv:active {
+	color: black;
+	text-decoration: underline;
+}
+/*  日期區塊      */
+.dateDiv {
+	width: 49%;
+	min-height: 269px;
+	border-radius: 25px;
+	background-color: rgba(150, 150, 150, 0.25);;
+	display: inline-block;
+	border-color: black; transition : all 0.3s linear;
+	animation: bgColor 3s infinite linear;
+	transition: all 0.5s linear
+}
+
+@keyframes bgColor{
+	12.5%{
+		border-color: rgb(123, 167, 123);
+	}
+	25%{
+		border-color: rgb(142, 173, 142);
+	}
+	37.5%{
+		border-color: rgb(154, 173, 154);
+	}
+	50%{
+		border-color: rgb(166, 175, 166);
+	}
+	62.5%{
+		border-color: rgb(154, 173, 154);
+	}
+	75%{
+		border-color:rgb(142,173,142);
+	}
+	87.5%{
+		border-color: rgb(123, 167, 123);
+	}
+	100%{
+		border-color:green;
+	}
+}
+
+
+.dateDiv:hover {
+	box-shadow: 0 0px 10px rgba(233, 236, 239, 0.5), 0 0px 10px
+		rgba(233, 236, 239, 0.5);
+}
+
+/*select option start*/
+.chosen {
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #444;
+	line-height: 1.5;
+	padding: .6em 1.4em .5em .8em;
+	max-width: 100%;
+	/* useful when width is set to anything other than 100% */
+	box-sizing: border-box;
+	margin: 0;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0, 0, 0,0.4);
+	border-radius: .5em;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background-color: #fff;
+	background-image:
+		url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+		linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+	background-repeat: no-repeat, repeat;
+	/* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+	background-position: right .7em top 50%, 0 0;
+	/* icon size, then gradient */
+	background-size: .65em auto, 100%;
+}
+
+/* Hide arrow icon in IE browsers */
+.select-css::-ms-expand {
+	display: none;
+}
+/* Hover style */
+.select-css:hover {
+	border-color: #888;
+}
+/* Focus style */
+.select-css:focus {
+	border-color: #aaa;
+	/* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222;
+	outline: none;
+}
+
+/* Set options to normal weight */
+.select-css option {
+	font-weight: normal;
+}
+
+/* Support for rtl text, explicit support for Arabic and Hebrew */
+*[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css
+	{
+	background-position: left .7em top 50%, 0 0;
+	padding: .6em .8em .5em 1.4em;
+}
+
+/* Disabled styles */
+.select-css:disabled, .select-css[aria-disabled=true] {
+	color: graytext;
+	background-image:
+		url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+		linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+}
+
+.select-css:disabled:hover, .select-css[aria-disabled=true] {
+	border-color: #aaa;
+}
+
+/*select option end*/
+.date {
+	width: 25%;
+	display: inline-block;
+	margin-left: 0.8%;
+	margin-right: 62%;
+	margin-bottom: 6%;
+	margin-top: 5%;
+	font-size: 16px;
+	font-weight: 700;
+	color: #444;
+	line-height: 1.6;
+	padding: .6em 1.4em .5em .8em;
+	box-sizing: border-box;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0, 0, 0, .0 .4);
+	border-radius: .5em;
+}
+
+@media  screen and (max-width: 1700px) {
+	.date{
+		width: 35%;
+		margin-right: 65%;
+	}
+	.cancel{
+		top:-100px !important;
+	}
+}
+
+ @media  screen and (max-width: 1250px) {
+	.date{
+		width: 40%;
+	}
+	
+	.cancel{
+		top:-85px !important;
+	}
+}
+
+ @media  screen and (max-width: 1130px) {
+	.date{
+		width: 50%;
+		margin-right: 0%;
+	}
+	.cancel{
+		top:-1px !important;
+	}
+}
+
+ @media  screen and (max-width: 940px) {
+	.date{
+		width: 60%;
+	}
+}
+
+ @media  screen and (max-width: 800px) {
+	.date{
+		width: 75%;
+	}
+}
+
+ @media  screen and (max-width: 500px) {
+	.date{
+		width: 85%;
+	}
+}
+
+
+
+.location {
+	width: 20%;
+	height: 45px;
+	display: inline-block;
+}
+
+.bed_num {
+	width: 22%;
+	display: inline-block;
+	margin: auto 1%;
+}
+
+.meal {
+	width: 20%;
+	display: inline-block;
+}
+
+.meal_num {
+	width: 20%;
+	display: inline-block;
+	margin-left: 1%;
+}
+
+.cancel {
+	font-size: 28px;
+	box-sizing: border-box;
+	width: 10%;
+	visibility: hidden;
+	margin-right: 1% !important;
+	display: inline-block;
+	position: relative;
+	float: right;
+    top: 0;
+}
+
+.cancel:hover {
+	color: red;
+}
+
+/* 明細頁面*/
+#detail {
+	display: none;
+	position: relative;
+	width: 100%;
+	height: 900px;
+	overflow: auto;
+}
+
+.dateDetailDiv {
+	width: 90%;
+	min-height: 150px;
+	border-radius: 25px;
+	background-color: rgb(214, 195, 144);
+}
+
+.dateDetailDiv table {
+	width: 90%;
+	font-size: 25px;
+	border: 1px solid black;
+	margin: 0px auto;
+	padding: 70px;
+}
+/*提交訂單*/
+#lightBox1 {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(66, 66, 66, 0.5);
+	display: none;
+	z-index: 90;
+}
+
+#commitArea input {
+	width: 30%;
+	height: 20%;
+	position: relative;
+	display: inline-block;
+	border-radius: 25px;
+}
+
+#commitArea {
+	font-size: 20px;
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	top: 0;
+	right: 0;
+	bottom: 10%;
+	left: 0;
+	margin: auto;
+	background-color: #FFEE99;
+	z-index: -1;
+	border-radius: 25px;
+}
+
+#btnCommit {
+	background-color: white;
+	font-size: 16px;
+	padding-left: 2px;
+	bottom: 40px;
+	right: 20px;
+	/* margin-right: 40px; */
+}
+
+#btnCommit:hover {
+	background-color: bisque;
+	transition: all 0.15s linear;
+	width: 28%;
+	height: 18%;
+}
+
+#btnCommit:active {
+	color: white;
+}
+
+#btnCancel {
+	background-color: white;
+	font-size: 16px;
+	padding-right: 2px;
+	bottom: 40px;
+}
+
+#btnCancel:hover {
+	background-color: bisque;
+	transition: all 0.15s linear;
+	width: 28%;
+	height: 18%;
+}
+
+#btnCancel:active {
+	color: white;
+}
+
+#commitArea p {
+	color: black;
+	position: relative;
+	margin: 60px 50px !important;
+	font-size: 30px;
+}
+
+#commitSuccess {
+	display: none;
+	position: relative;
+	width: 100%;
+	height: 900px;
+	overflow: auto;
+	background-color: lightgoldenrodyellow;
+}
+
+#commitSuccess div {
+	width: 70%;
+	font-size: 40px;
+	border-radius: 25px;
+	background-color: #ffdb97;
+}
+
+/*按鈕*/
+.collapsible {
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid white;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	padding: 18px;
+	width: 100%;
+	text-align: center;
+	outline: none;
+	margin-top: 15px;
+}
+
+.collapsible:hover {
+	color: red;
+	outline: none;
+}
+
+.btn {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px solid white;
+	padding: 10px;
+	min-width: 145px;
+	margin: 15px auto;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	transition: 0.2s;
+}
+
+.btn:hover {
+	background-color: rgba(230, 230, 230, 0.8);
+	border: 1px solid black;
+}
+
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, .5);
+}

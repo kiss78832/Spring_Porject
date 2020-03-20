@@ -1,0 +1,124 @@
+  /* content start*/
+
+.contentbox{
+	margin-top: 80px;
+	box-sizing: border-box;
+	height: auto;
+	min-height: 900px;
+	padding: 0px;
+    
+}
+.contentbox>img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.contentbox .cb{/*contentbox 底下的div*/
+  display: inline-block;
+  position: relative;
+}
+/*左側區塊*/
+#cleft{
+	background-color: rgba(52,53,55,0.2);
+	border: 1px solid rgba(150,150,150,0.5);
+    height: auto;
+    min-height: 900px;
+	float: left;
+}
+#cleft div{
+
+}
+
+.memData h1{
+  padding: 30px;
+}
+
+/*右側區塊*/
+#cright{
+background-color: rgba(72,73,75,0.9);
+border: 1px solid rgba(150,150,150,1);
+height:100%;
+float: left;
+}
+#cright div{
+
+}
+  /* content end*/
+
+
+  /**/
+
+  .collapsible {
+background-color: rgba(0,0,0,0.4);
+  border: 1px solid white;
+  color:white;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  margin-top: 15px;
+}
+.collapsible:hover{
+  color:red;
+  outline: none;
+}
+.collapsible:active{
+  outline: none;
+}
+
+.mbtn{
+
+  background-color: rgba(0,0,0,0.5);
+  border: 1px solid white;
+  padding: 10px;
+  min-width:145px;
+
+  margin: 15px auto;
+  color:white;
+  font-size: 18px;
+  font-weight: 300;
+  transition: 0.2s;
+
+}
+.mbtn:hover {
+  
+  background-color: rgba(230,230,230,0.8);
+  border: 1px solid black;
+
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.5);
+}
+
+
+  /**/
+
+  @media (max-width: 1190px) {
+    .mbtn{
+      padding: 1px;
+      min-width:70px;
+      font-size: 14px;
+    }
+    
+  }
+   @media (max-width: 768px){
+    .mbtn{
+      padding: 10px;
+      min-width:145px;
+      font-size: 20px;
+    }
+   }
+
+
+
+  

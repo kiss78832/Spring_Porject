@@ -1,0 +1,140 @@
+  /* content start*/
+
+.contentbox{
+  margin-top: 80px;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0px;
+    
+}
+.contentbox>img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.contentbox .cb{/*contentbox 摨��iv*/
+  display: inline-block;
+  position: relative;
+}
+/*撌血��憛�*/
+#cleft{
+background-color: rgba(52,53,55,0.2);
+border: 1px solid rgba(150,150,150,0.5);
+height: auto;
+float: left;
+}
+#cleft div{
+ /*margin: 15px auto;*/
+}
+
+/*����憛�*/
+.cright{
+background-color: rgba(72,73,75,0.9);
+border: 1px solid rgba(150,150,150,1);
+height:100%;
+float: left;
+position: absolute;
+}
+.cright div{
+
+}
+  /* content end*/
+
+
+  /**/
+
+  .collapsible {
+background-color: rgba(0,0,0,0.4);
+  border: 1px solid white;
+  color:white;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  margin-top: 15px;
+}
+.collapsible:hover{
+  color:red;
+  outline: none;
+}
+.collapsible:active{
+  outline: none;
+}
+
+.btn{
+
+  background-color: rgba(0,0,0,0.5);
+  border: 1px solid white;
+  padding: 10px;
+  min-width:145px;
+
+  margin: 15px auto;
+  color:white;
+  font-size: 18px;
+  font-weight: 300;
+  transition: 0.2s;
+
+}
+.btn:hover {
+  
+  background-color: rgba(230,230,230,0.8);
+  border: 1px solid black;
+
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.5);
+}
+
+.edCard{
+  padding: 10px;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  border: 1px solid white;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+.edCard:hover{
+  padding: 12px;
+  color: red;
+}
+.edCard:active{
+  padding: 10px;
+}
+
+
+
+  /**/
+
+  @media (max-width: 1190px) {
+    .btn{
+      padding: 1px;
+      min-width:70px;
+      font-size: 14px;
+    }
+    
+  }
+   @media (max-width: 768px){
+    .btn{
+      padding: 10px;
+      min-width:145px;
+      font-size: 20px;
+    }
+   }
+
+
+
+
+
+  

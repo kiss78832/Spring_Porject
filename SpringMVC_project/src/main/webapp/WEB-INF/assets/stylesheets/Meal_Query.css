@@ -1,0 +1,34 @@
+.card-body{
+  color:black;
+}
+.card{
+  background-color: antiquewhite;
+  max-width:80%;
+}
+.page1{
+  width:100%;
+}
+
+.card:hover{
+  box-shadow:-1px 9px 40px 12px rgba(255, 251, 251, 0.75); 
+}
+
+.inner{
+  overflow: hidden;
+  margin-top: 0px !important;
+}
+
+.card-img-top{
+  transition: all 1.5s ease;
+  max-width:100%;
+}
+
+.card-img-top:hover{
+transform: scale(1.5);
+}
+
+.card-title:hover{
+  transition	: all 0.15s linear;
+  font-size: 28px;
+  color: brown;
+}

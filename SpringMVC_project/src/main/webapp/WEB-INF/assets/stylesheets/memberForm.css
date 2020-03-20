@@ -1,0 +1,55 @@
+/*MEMBER_DATA*/
+
+.memData{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.formBox{
+	background-color: rgba(200,200,200,0.2);
+	border:1px solid black;
+	border-radius: 8px;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 0;
+}
+
+.menberData input{
+	outline: none;
+	min-width: 350px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+/*focus*/
+
+.menberData input:focus{
+	background-color:rgb(190,190,190);
+}
+.menberData th,td{
+	padding: 5px 5px 10px 5px;
+}
+.menberData table{
+	text-align: left;
+	border:1px solid block;
+	position: relative;
+	display: inline-block;
+}
+.menberData input[type=submit]{
+	min-width: 150px;
+	color: white;
+	background-color: rgba(50,50,50,0.8);
+}
+.menberData input[type=radio]{
+	min-width: 30px;
+}
+.idInput{
+	font-size:28px;
+	color:white;
+}
+
+/*end*/

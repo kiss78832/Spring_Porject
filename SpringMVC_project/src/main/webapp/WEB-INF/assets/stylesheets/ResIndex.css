@@ -1,0 +1,44 @@
+
+.chosePage1 p,.chosePage2 p, .chosePage3 p{ 
+	line-height: 250px;
+	font-family: Noto;
+/* 	font-family: Noto; */
+/* 	font-family: 'Courier New', Courier, monospace; */
+/* 	font-style: italic; */
+	color: white;
+	opacity: 1.0;
+}
+
+.chosePage1 p:hover,.chosePage2 p:hover, .chosePage3 p:hover{ 
+	line-height: 250px;
+/* 	font-family: 'Courier New', Courier, monospace; */
+/* 	font-style: italic; */
+	color: white;
+	opacity: 1.0;
+	font-size: 42px;
+	transition: all 0.25s linear;
+}
+
+
+@keyframes fadeIn{
+	0% {
+		transform: translate3d(0,40px,0)
+	}
+	100% {
+		transform: translate3d(0,0,0);
+        opacity: 1
+	}
+  }
+  
+
+
+.titleWord{
+	font-size: 38px;
+	margin-top:10%;
+	transition: all 1s ease-in-out;
+	font-family: 'Roboto', sans-serif;
+	font-style: Italic;	
+	animation: fadeIn 1.5s ease forwards;
+}
+
+
